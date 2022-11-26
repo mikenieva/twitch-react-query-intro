@@ -9,7 +9,6 @@ import EjemploReactQuery from './pages/EjemploReactQuery'
 import Root from './pages/Root'
 import ErrorPage from './pages/ErrorPage'
 
-
 const router = createBrowserRouter([
   {
     path: '/',
