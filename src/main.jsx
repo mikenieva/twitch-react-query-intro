@@ -9,20 +9,18 @@ import {
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools} from '@tanstack/react-query-devtools'
 
-import EjemploReactQuery from './pages/EjemploReactQuery'
+import EjemploReactQuery from './pages/ExRQ'
 import Root from './pages/Root'
 import ErrorPage from './pages/ErrorPage'
-
-
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Root /> , 
     errorElement: <ErrorPage />
-  },
+  }, 
   {
-    path: '/ejemploreactquery',
+    path: '/exrq',
     element: <EjemploReactQuery />
   }
 ])

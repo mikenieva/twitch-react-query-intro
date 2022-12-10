@@ -4,6 +4,16 @@
             "id": "user1",
             "name": "Mike",
             "lastname": "Nieva"
+        },
+        {
+            "id": "user2",
+            "name": "User 2",
+            "lastname": "Nieva"
+        },
+        {
+            "id": "user3",
+            "name": "User 3",
+            "lastname": "Nieva"
         }
     ]
 }
